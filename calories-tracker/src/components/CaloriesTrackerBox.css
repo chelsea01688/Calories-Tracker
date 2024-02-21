@@ -1,8 +1,54 @@
 .customBox {
-    width: 300px;
+    width: 700px;
     padding: 20px;
     border: 1px solid #0c0c0c;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 400px auto 0;
+    margin: 250px auto 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete {
+    width: 90px;
+  }
+
+  h3 {
+    display: flex;
+  }
+
+  .add {
+    margin: 30px;
+  }
+
+  .mealListContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mealListContainer_wrapper {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .deleteMeal {
+    margin-left: 10px;
+  }
+
+
+  span {
+    margin-left: 33rem;
   }
