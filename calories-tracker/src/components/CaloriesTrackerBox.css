@@ -1,28 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+body {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 300;
+  background-color: rgb(233, 238, 233);
+}
+
 .customBox {
     width: 700px;
     padding: 20px;
-    border: 1px solid #0c0c0c;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 250px auto 0;
+    border: 1px solid #e1dada;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(176, 123, 123, 0.1);
+    margin: 120px auto 0;
+    background-color: rgba(255, 255, 255, 0.917);
   }
 
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
   }
   
   .delete {
-    width: 90px;
+    width: 112px;
+    padding: 12px;
+    border-radius: 20px;
+    border: white;
+    background-color: rgb(193, 208, 191);
+    font-size: 15px;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .delete:hover {
+    transform: translateY(-5px); 
+    cursor: pointer;
   }
 
   h3 {
+    margin-left: 20px;
     display: flex;
   }
 
+  h1 {
+    font-size: 2.4rem;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
   .add {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  input {
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .addMeal {
     margin: 30px;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 20px;
+    border: white;
+    background-color: rgb(212, 229, 212);
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .addMeal:hover {
+    transform: translateY(-5px); 
+    cursor: pointer;
   }
 
   .mealListContainer{
@@ -41,14 +88,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .deleteMeal {
     margin-left: 10px;
   }
 
-
   span {
-    margin-left: 33rem;
+    margin-left: 31rem;
   }
