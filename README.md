@@ -11,11 +11,6 @@ Within the app, users can input their meals and their respective calorie counts.
 
 <br>
 
-## Demo Video 🎥
-
-
-
-https://github.com/chelsea01688/Calories-Tracker/assets/146859678/e4a541f9-fa33-4c16-8d39-c8d8c6d1e989
 
 
 
